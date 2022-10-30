@@ -16,7 +16,7 @@ function App() {
           className="profile__img"
           id="profile__img"
         />
-        <p id="slack">Ifeanyi Ogbonna</p>
+        <p id="slack">Ogbonna Ifeanyi</p>
 
         <a
           href="https://twitter.com/IfeanyiIfybest"
