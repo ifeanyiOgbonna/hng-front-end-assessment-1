@@ -5,7 +5,7 @@
 }
 
 .body {
-  font-family: sans-serif;
+  font-family: "Inter";
   color: #343a40;
   font-size: 24px;
   height: 100vh;
@@ -31,6 +31,9 @@ main {
   margin-bottom: 50px;
   position: relative;
 }
+.contact-container {
+  width: 50%;
+}
 .btn {
   background-color: #e9ecef;
   width: 100%;
@@ -44,7 +47,6 @@ main {
 .profile__img {
   width: 88px;
   height: 88px;
-  /* display: flex; */
 }
 
 .media-links {
@@ -75,8 +77,100 @@ main {
 }
 
 .north {
-    width: 80%; 
-    margin: auto;
+  width: 80%;
+  margin: auto;
+}
+
+.contact-header {
+  width: 100%;
+  font-family: "Inter";
+  margin-bottom: 30px;
+}
+
+.contact-header h1 {
+  letter-spacing: -0.02em;
+  color: #101828;
+
+}
+
+.contact-header p {
+  margin-top: 20px;
+  letter-spacing: -0.02em;
+  color: #475467;
+}
+
+.contact-details {
+  display: inline-block;
+  justify-content: space-between;
+}
+
+.input-item-label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Inter";
+  color: #344054;
+}
+
+.input-items {
+  width: 100%;
+  margin-bottom: 24px;
+  font-family: "Inter";
+  color: #344054;
+}
+
+.items {
+  display: flex;
+  width: 100%;
+  gap: 24px;
+}
+
+.input-item {
+  display: block;
+  width: 100%;
+  padding: 12px 14px;
+  font-weight: 400;
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  border: 1px solid #d0d5dd;
+}
+
+.form {
+  width: 100%;
+  font-family: "Inter";
+}
+
+.textArea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #d0d5dd;
+
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: "Inter";
+  color: #667085;
+}
+
+.btn-contact {
+  background-color: #1570ef;
+  margin-top: 20px;
+  margin-bottom: 90px;
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  border: 1px solid #1570ef;
+  padding: 12px 0;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+}
+
+.text-description {
+  display: flex;
+  gap: 10px;
+  line-height: 24px;
+  font-family: "Inter";
+  border-radius: 5px;
+  color: #475467;
 }
 
 @media screen and (max-width: 768px) {
@@ -114,5 +208,10 @@ main {
     visibility: visible;
     width: 90%;
   }
+  
+  .items {
+    flex-direction: column;
+    gap: 0px;
+  }
+  
 }
-
